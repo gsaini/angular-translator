@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "angular-translate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,6 +8,29 @@
   "dependencies": {
     "express": "3.4.7",
     "jade": "*",
-    "stylus": "*"
-  }
+    "stylus": "*",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
+  "description": "Easy global i18n angularJS language translations for your Angular app",
+  "main": "server.js",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-ng-constant": "~0.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsaini/angular-translator.git"
+  },
+  "keywords": [
+    "angular-translate"
+  ],
+  "author": "Gopal Saini",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gsaini/angular-translator/issues"
+  },
+  "homepage": "https://github.com/gsaini/angular-translator"
 }
